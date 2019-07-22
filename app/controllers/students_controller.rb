@@ -7,7 +7,4 @@ class StudentsController < ApplicationController
      @student = Student.find(params[:id])
   end 
   
-  def to_s 
-    
-  end 
 end
